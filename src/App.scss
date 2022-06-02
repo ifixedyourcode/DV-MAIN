@@ -1,0 +1,84 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  
+}
+
+.App {
+  text-align: center;
+}
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.padding {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.Sec-pad {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.Sec-pad-2 {
+  padding-top: 125px;
+  padding-bottom: 50px;
+}
+
+
+.img-background{
+  background-image: url(./images/hero.gif);
+  padding-top: 150px;
+  padding-bottom: 100px;
+  background-size: cover;
+}
+
+.header-font{
+  font-size: 5rem;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+
+
+$theme-colors: (
+	"primary" : #353B44,
+  "secondary" : #cf629e,
+  "success" : #ff008e,
+  "danger" : #abb64a,
+  "warning" : #4b322d,
+  "info" : #85ada0,
+  "light" : #eea290,
+  "dark" : #000,
+  "muted" : #dbd1cf,
+  "white" : #fff,
+);
+
+
+@import "~bootstrap/scss/bootstrap.scss";
+
